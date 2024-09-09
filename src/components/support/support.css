@@ -1,0 +1,16 @@
+.supportcontiner{
+width: 100%;
+height: 270px;
+display: flex;
+gap: 20px;
+align-items: center;
+justify-content: center;
+background-color: #FAF3EA;
+}
+@media screen and (max-width: 500px){
+
+    .supportcontiner{
+        flex-direction: column;
+        height: 530px;
+    }
+}

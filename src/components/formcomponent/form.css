@@ -1,0 +1,50 @@
+.formmaindiv{
+    height: 725px;
+    width: 635px;
+    display: flex;
+    flex-direction: column;
+gap: 15px;}
+
+.formmaindiv label{
+    font-family: Poppins-Medium;
+    font-size: 16px;
+    width: 145px;
+    height: 25px;
+}
+.formmaindiv input{
+    height: 75px;
+    width: 530px;
+    border-radius: 10px;
+    border: 1px solid #9F9F9F;
+    box-sizing: border-box;
+    padding: 20px;
+}
+.formmaindiv textarea{
+    width: 530px;
+    height: 120px;
+    border-radius: 10px;
+    border: 1px solid #9F9F9F;
+    box-sizing: border-box;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+#submitbtn{
+    width: 235px;
+    height: 55px;
+    background-color: #B88E2F;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+@media screen and (max-width: 500px){
+
+    .formmaindiv input{
+        width: 375px;
+    }
+    .formmaindiv textarea{
+
+        width: 375px;
+    }
+
+}

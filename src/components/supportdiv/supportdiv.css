@@ -1,0 +1,14 @@
+.supportdiv{
+    width: 250px;
+    height: 70px;
+    display: flex;
+    gap: 5px;
+}
+#supportimg{
+    width: 60px;
+    height: 60px;
+}
+.supportlabels{
+    display: flex;
+    flex-direction: column;
+}

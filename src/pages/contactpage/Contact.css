@@ -1,0 +1,69 @@
+
+#contacthead{
+    width: 375;
+    height: 55px;
+    font-family: Poppins-SemiBold;
+    font-size: 36px;
+    margin:0 ;
+    padding: 0;
+}
+#contactparagraph{
+    width: 645;
+    height: 50px;
+    color: #9F9F9F;
+    font-size: 16px;
+    margin:0 ;
+    padding: 0;
+}
+.getintouchdiv{
+    display: flex;
+    flex-direction: column;
+    justify-content:end;
+    align-items: center;
+    height: 200px;
+}
+.formcontainer{
+    width: 395px;
+    height:540px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.repeateddiv{
+    display: flex;
+    width: 250px;
+    height: 130px;
+}
+.formlabels{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 20px;
+}
+.repeateddiv img {
+    height: 30px;
+    width: 30px;
+}
+.repeateddiv h2{
+    font-family: Poppins-Medium;
+    font-size: 24px;
+}
+.repeateddiv label{
+    font-family: Poppins-Regular;
+    font-size: 16px;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    box-sizing: border-box;
+}
+@media screen and (max-width: 500px){
+    .main{
+        flex-direction: column;
+    }
+    .getintouchdiv{
+        width: 375px;
+        justify-content: start;
+    }
+}

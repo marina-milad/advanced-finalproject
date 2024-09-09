@@ -1,0 +1,41 @@
+.contactbackground{
+    width: 100%;
+    height: 315px;
+    background-image: url("../../../public/assets/Rectangle\ 1.png");
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#contact{
+    width: 195px;
+    height: 70px;
+    font-family: Poppins-Medium;
+    font-size: 48px;
+    margin: 0;
+    padding: 0;
+}
+.homeandshop{
+    font-family: Poppins-Medium;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 500px){
+    .contactbackground{
+        background-image: url("../../../public/assets/Group 78 (2).png");
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    #contact{
+        display: none;
+    }
+    #arrowdiv{
+       display: none;
+    }
+.contactbackground img{
+    display: none;
+    }
+}
