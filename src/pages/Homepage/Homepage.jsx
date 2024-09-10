@@ -2,21 +2,14 @@ import { Link, Outlet,useNavigate } from "react-router-dom"
 import { useState,useContext } from "react";
 import { CartContext } from "../../components/cartcontext/cartcontext";
 import "./Homepage.css"
-import logo from "../../assets/Frame 168.png"
-import cart from "../../assets/Vector.png"
+import logo from "../../../public/assets/Frame 168.png"
+import cart from "../../../public/assets/Vector.png"
 import Footer from "../../components/footer/Footer"
 function Homepage (){
   const [isCartOpen, setCartOpen] = useState(false);
 
   const { cartItems } = useContext(CartContext);
   const navigate = useNavigate(); 
-
- // useEffect(() => {
-   // fetch("https://fakestoreapi.com/products")
-      //.then((response) => response.json())
-      //.then((data) => setCartItems(data))
-      //.catch((error) => console.error("Error fetching cart items:", error));
- // }, []);
 
   const goToCartPage = () => {
     navigate("/Cartpage");  
