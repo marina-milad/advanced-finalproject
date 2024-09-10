@@ -44,6 +44,7 @@
     background-color: #F9F1E7;
     font-family: Poppins-Regular;
     font-size: 20px;
+    cursor: pointer;
 }
 .cartitem{
     width:820px ;
@@ -94,6 +95,9 @@
     align-items: center;
     display: flex;
     justify-content: end;
+}
+#deletebtn{
+    cursor: pointer;
 }
 @media screen and (max-width: 500px){
 

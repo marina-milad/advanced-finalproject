@@ -32,7 +32,7 @@ function cartpage (){
             <p id="productprice">{item.price} USD</p>
             <p id="productquantity">{item.quantity}</p>
               <p id="productsubtotal">{(item.price * item.quantity).toFixed(2)} USD</p>
-            <button onClick={() => removeFromCart(item.id)}>
+            <button id="deletebtn" onClick={() => removeFromCart(item.id)}>
                 <img src={DELETE}/>
             </button>
             </div>
