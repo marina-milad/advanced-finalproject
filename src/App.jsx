@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './App.css'
 import { useState } from "react";
 import Home from './pages/Home/Home'
-import Shop from './pages/shoppage/Shop'
+import Shop from  "./pages/shoppage/Shop"
 import Contact from './pages/contactpage/Contact'
 import Homepage from "./pages/Homepage/Homepage";
 import Product from "./pages/productpage/product";
