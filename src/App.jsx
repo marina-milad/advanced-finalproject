@@ -18,12 +18,12 @@ function App() {
     <BrowserRouter>
     <Routes>
       <Route path="/" element={<Homepage></Homepage>}>
-      <Route path="Home" element={<Home setSelectedCategory={setSelectedCategory}></Home>}></Route>
+      <Route path="home" element={<Home setSelectedCategory={setSelectedCategory}></Home>}></Route>
       <Route index element={<Home setSelectedCategory={setSelectedCategory}></Home>}></Route>
       <Route path="shop" element={<Shop selectedCategory={selectedCategory}/>}></Route>
-      <Route path="Contact" element={<Contact></Contact>}></Route>
+      <Route path="contact" element={<Contact></Contact>}></Route>
       <Route path="/product/:id" element={<Product></Product>}></Route>
-      <Route path="/Cartpage" element={<Cartpage />} />
+      <Route path="/cartpage" element={<Cartpage />} />
       
       </Route>
       

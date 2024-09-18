@@ -28,7 +28,7 @@ function Homepage (){
         <img  id="logo" src={logo}/>
           <ul id="pagelink">
             <li>
-              <Link className="linkstyle" to="/Home">Home</Link>
+              <Link className="linkstyle" to="/home">Home</Link>
             </li>
             <li>
               <Link className="linkstyle" onClick={() => setSelectedCategory("")} to="/shop">Shop</Link>
