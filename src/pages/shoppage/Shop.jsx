@@ -1,8 +1,9 @@
+import "./shop.css"
 import React, { useEffect, useState } from "react";
 import Shopbackground from "../../components/shopbackground/shopbackground.jsx"
 import Support from "../../components/support/support.jsx"
 import { Link } from "react-router-dom";
-import "./shop.css"
+
 
 const ShopPage = ({ selectedCategory }) => {
   const [products, setProducts] = useState([]);
