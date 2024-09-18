@@ -1,10 +1,10 @@
 
-import Cartbackground from "../../components/cartbackground/cartbackground"
-import Support from "../../components/support/support"
-import DELETE from "../../../public/assets/ant-design_delete-filled.png"
+import Cartbackground from "../../components/cartbackground/cartbackground.jsx"
+import Support from "../../components/support/support.jsx"
+import DELETE from "/assets/ant-design_delete-filled.png"
 import "./Cartpage.css"
 import { useContext } from 'react';
-import { CartContext } from '../../components/cartcontext/cartcontext';
+import { CartContext } from '../../components/cartcontext/cartcontext.jsx';
 
 
 function cartpage (){

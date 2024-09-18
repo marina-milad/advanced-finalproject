@@ -1,6 +1,6 @@
 import "./cartbackground.css"
-import Arrow from "../../../public/assets/dashicons_arrow-down-alt2.png"
-import buildingimg from "../../../public/assets/Meubel House_Logos-05.png"
+import Arrow from "/assets/dashicons_arrow-down-alt2.png"
+import buildingimg from "/assets/Meubel House_Logos-05.png"
 function cartbackground (){
 
     return(

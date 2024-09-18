@@ -1,9 +1,9 @@
 import Supportdiv from "../supportdiv/supportdiv"
 import "./support.css"
-import Quality from "../../../public/assets/Group (1).png"
-import Warranty from "../../../public/assets/Vector (1).png"
-import Shipping from "../../../public/assets/Group.png"
-import Customer from "../../../public/assets/Customer-support.png"
+import Quality from "/assets/Group (1).png"
+import Warranty from "/assets/Vector (1).png"
+import Shipping from "/assets/Group.png"
+import Customer from "/assets/customer-support.png"
 
 function Support (){
     const arrayofobjects=[{

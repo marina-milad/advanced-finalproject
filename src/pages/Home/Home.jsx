@@ -3,9 +3,9 @@
 import Homebackground from "../../components/homebackground/homebackground"
 import { Link} from "react-router-dom";
 import electronic from "/assets/electronics_category_150x200.png"
-import jewelery from "../../../public/assets/jewelry_category_150x200.png"
-import men from "../../../public/assets/men_clothing_150x200.png"
-import women from "../../../public/assets/women_clothing_150x200.png"
+import jewelery from "/assets/jewelry_category_150x200.png"
+import men from "/assets/men_clothing_150x200.png"
+import women from "/assets/women_clothing_150x200.png"
 import { useNavigate } from "react-router-dom";
 
 

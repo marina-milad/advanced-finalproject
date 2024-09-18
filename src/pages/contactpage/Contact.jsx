@@ -1,9 +1,9 @@
 import "./Contact.css"
 import Support from "../../components/support/support"
 import Contactbackground from "../../components/contactbackground/contactbackground"
-import Adress from "../../../public/assets/Vector (2).png"
-import Phone from "../../../public/assets/bxs_phone.png"
-import Time from "../../../public/assets/Vector (3).png"
+import Adress from "/assets/Vector (2).png"
+import Phone from "/assets/bxs_phone.png"
+import Time from "/assets/Vector (3).png"
 import Form from "../../components/formcomponent/form"
 function Contact (){
 

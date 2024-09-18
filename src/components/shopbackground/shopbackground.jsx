@@ -1,5 +1,5 @@
 import "./shopbackground.css"
-import Arrow from "../../../public/assets/dashicons_arrow-down-alt2.png"
+import Arrow from "/assets/dashicons_arrow-down-alt2.png"
 function shopbackground (){
 
     return(

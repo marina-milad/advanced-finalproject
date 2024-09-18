@@ -4,12 +4,12 @@ import { useContext } from 'react';
 import { CartContext } from "../../components/cartcontext/cartcontext"
 import React from 'react';
 import "./product.css"
-import minus from "../../../public/assets/-.png"
-import plus from "../../../public/assets/+.png"
-import facebook from "../../../public/assets/akar-icons_facebook-fill.png"
-import linkedin from "../../../public/assets/akar-icons_linkedin-box-fill.png"
-import twitter from "../../../public/assets/ant-design_twitter-circle-filled.png"
-import arrow from "../../../public/assets/dashicons_arrow-down-alt2.png"
+import minus from "/assets/-.png"
+import plus from "/assets/+.png"
+import facebook from "/assets/akar-icons_facebook-fill.png"
+import linkedin from "/assets/akar-icons_linkedin-box-fill.png"
+import twitter from "/assets/ant-design_twitter-circle-filled.png"
+import arrow from "/assets/dashicons_arrow-down-alt2.png"
 
 const ProductDetailPage = () => {
   const {id} = useParams();

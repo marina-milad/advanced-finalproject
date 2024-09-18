@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
-import Shopbackground from "../../components/shopbackground/shopbackground"
-import Support from "../../components/support/support"
+import Shopbackground from "../../components/shopbackground/shopbackground.jsx"
+import Support from "../../components/support/support.jsx"
 import { Link } from "react-router-dom";
 import "./shop.css"
 
