@@ -3,11 +3,11 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './App.css'
 import { useState } from "react";
 import Home from './pages/Home/Home'
-import Shop from  "./pages/shoppage/Shop"
-import Contact from './pages/contactpage/Contact'
-import Homepage from "./pages/Homepage/Homepage";
-import Product from "./pages/productpage/product";
-import Cartpage from "./pages/Cartpage/Cartpage"
+import Shop from  "./pages/shoppage/Shop.jsx"
+import Contact from './pages/contactpage/Contact.jsx'
+import Homepage from "./pages/Homepage/Homepage.jsx";
+import Product from "./pages/productpage/product.jsx";
+import Cartpage from "./pages/Cartpage/Cartpage.jsx"
 import { CartProvider } from "./components/cartcontext/cartcontext";
 function App() {
   const [selectedCategory, setSelectedCategory] = useState("");
