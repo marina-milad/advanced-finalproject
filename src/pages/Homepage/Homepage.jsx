@@ -31,7 +31,7 @@ function Homepage (){
               <Link className="linkstyle" to="/Home">Home</Link>
             </li>
             <li>
-              <Link className="linkstyle" onClick={() => setSelectedCategory("")} to="/Shop">Shop</Link>
+              <Link className="linkstyle" onClick={() => setSelectedCategory("")} to="/shop">Shop</Link>
             </li>
             <li>
               <Link className="linkstyle" to="/contact">Contact</Link>

@@ -20,7 +20,7 @@ function App() {
       <Route path="/" element={<Homepage></Homepage>}>
       <Route path="Home" element={<Home setSelectedCategory={setSelectedCategory}></Home>}></Route>
       <Route index element={<Home setSelectedCategory={setSelectedCategory}></Home>}></Route>
-      <Route path="Shop" element={<Shop selectedCategory={selectedCategory} ></Shop>}></Route>
+      <Route path="shop" element={<Shop selectedCategory={selectedCategory}/>}></Route>
       <Route path="Contact" element={<Contact></Contact>}></Route>
       <Route path="/product/:id" element={<Product></Product>}></Route>
       <Route path="/Cartpage" element={<Cartpage />} />
